@@ -1,4 +1,4 @@
-#Spotify Audio Feature Analyzer
+# Spotify Audio Feature Analyzer
 
 A Ruby console program that uses the [RSpotify](https://github.com/guilhermesad/rspotify) wrapper to let users look up songs on Spotify, retrieve the [quantitative audio features of those songs](https://developer.spotify.com/documentation/web-api/reference/tracks/get-audio-features/), and store that data on a .txt for easy formatting to spreadsheet.
 
