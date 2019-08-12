@@ -34,7 +34,6 @@ def search()
   end
 end
 
-
 def getKey(song)
   key = song.key
   #integers map to standard pitch class

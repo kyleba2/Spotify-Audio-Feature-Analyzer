@@ -5,10 +5,6 @@ RSpotify.authenticate("client_id","client_secret") #insert your own key from "ht
 def init()
   system 'clear'
   print "Clear output.txt? (y/n): "
-end
-
-
-def run()
   input = gets.chomp
   if (input == "y")
     output = File.open('output.txt', 'w')
@@ -17,10 +13,10 @@ def run()
     output.puts ""
     output.close
   end
+end
 
-
+def run()
   song = search()
-
   if (song != nil)
     #for clarity
     print "You are searching: "
@@ -63,7 +59,6 @@ def run()
     system 'clear'
     puts "Terminating program... Type \"ruby main.rb\" to run again."
   end
-
 end
 
 init()
